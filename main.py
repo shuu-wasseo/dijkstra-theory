@@ -9,7 +9,7 @@ units = {
     "kre": ["S1", "S3", "S4", "S6"],
     "love": ["S1", "S2", "S8", "S9", "S10", "S13", "S14", "S15"],
     "evol": [("S"+str(x)) for x in range(3, 8)] + ["S11", "S12", "S16"],
-    "full": ["S"+str(x+1) for x in range(24)]
+    "full": ["S"+str(x+1) for x in range(8)]
 }
 
 def pdic(dic, unit):
