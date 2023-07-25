@@ -18,7 +18,7 @@ def pdic(dic, unit):
         if x in units[unit]:
             for y in dic[x]:
                 if y in units[unit]:
-                    print(x, y, round(1/dic[x][y], 3))
+                    print(x, y, round(dic[x][y], 3))
     print("\n")
 
 for l in lines:
